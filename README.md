@@ -75,3 +75,37 @@ For example,
 ```B = 6``` (0110 in binary)
 
 then ```A & B = 0011``` which is equivalent to ```A & B = 3```
+
+#### Bitwise NOT (```~```)
+Bitwise NOT returns one's compliment. A quick trick to calculate ~A is to take -A and take one away from it. More formally add one to the binary number 
+
+| First Bit (A) |    ```~A```   |
+|      :---:    |      :---:    |
+|        1      |        0      |
+|        0      |        1      |
+
+For example, 
+
+```A = 5``` (0101 in binary) 
+
+then ```~A = -(0101 + 0001) = -(0110)``` which is equivalent to ```~A = -6```
+
+#### Bitwise Right Shift (```>>```)
+Bitwise right shift will shift the numbers to the right by the defined integer. In essense ```A >> n ``` is equivalent to ``` A // 2^n ``` - that is the floor of ```A / 2^n```.
+
+For example, 
+
+```A = 5``` (0101 in binary) 
+
+* then ```A >> 1 = 0010``` which is equivalent to ```A = 2```
+* then ```A >> 2 = 0001``` which is equivalent to ```A = 1```
+
+#### Bitwise Left Shift (```<<```)
+Bitwise right shift will shift the numbers to the right by the defined integer. In essense ```A << n ``` is equivalent to ``` A * 2^n ```.
+
+For example, 
+
+```A = 5``` (0101 in binary) 
+
+* then ```A << 1 = 1010``` which is equivalent to ```A = 10```
+* then ```A << 2 = 10100``` which is equivalent to ```A = 20```
