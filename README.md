@@ -37,11 +37,11 @@ then ```A & B = 0100``` which is equivalent to ```A & B = 4```
 Bitwise OR returns 1 if either bit is 1 ```else``` 0.
 
 | First Bit (A) | Second Bit (B) |  ```A | B```  |
-|      :---:    |      :---:     |     :---:   |
-|        1      |        1       |       1     |
-|        1      |        0       |       1     |
-|        0      |        1       |       1     |
-|        0      |        0       |       0     |
+|      :---:    |      :---:     |      :---:    |
+|        1      |        1       |        1      |
+|        1      |        0       |        1      |
+|        0      |        1       |        1      |
+|        0      |        0       |        0      |
 
 For example, 
 
@@ -56,11 +56,11 @@ then ```A | B = 0111``` which is equivalent to ```A & B = 7```
 Bitwise XOR returns 1 if one of the bits is 1 and the other is 0 ```else``` 0.
 
 | First Bit (A) | Second Bit (B) |  ```A ^ B```  |
-|      :---:    |      :---:     |     :---:   |
-|        1      |        1       |       0     |
-|        1      |        0       |       1     |
-|        0      |        1       |       1     |
-|        0      |        0       |       0     |
+|      :---:    |      :---:     |      :---:    |
+|        1      |        1       |        0      |
+|        1      |        0       |        1      |
+|        0      |        1       |        1      |
+|        0      |        0       |        0      |
 
 For example, 
 
