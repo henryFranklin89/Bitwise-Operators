@@ -10,8 +10,8 @@ For example, we would call:
 There are six btiwise operators in python:
 * Bitwise AND - ```&```
 * Bitwise OR - ```|```
-* Bitwise NOT - ```~```
 * Bitwise XOR - ```^```
+* Bitwise NOT - ```~```
 * Bitwsie right shift - ```>>```
 * Bitwise left shift - ```<<```
 
@@ -32,3 +32,40 @@ For example,
 ```B = 6``` (0110 in binary)
 
 then ```A & B = 0100``` which is equivalent to ```A & B = 4```
+
+#### Bitwise OR (```|```)
+Bitwise OR returns 1 if either bit is 1 ```else``` 0.
+
+| First Bit (A) | Second Bit (B) |  ```A | B```  |
+|      :---:    |      :---:     |     :---:   |
+|        1      |        1       |       1     |
+|        1      |        0       |       1     |
+|        0      |        1       |       1     |
+|        0      |        0       |       0     |
+
+For example, 
+
+```A = 5``` (0101 in binary) 
+
+```B = 6``` (0110 in binary)
+
+then ```A | B = 0111``` which is equivalent to ```A & B = 7```
+
+
+#### Bitwise XOR (```^```)
+Bitwise XOR returns 1 if one of the bits is 1 and the other is 0 ```else``` 0.
+
+| First Bit (A) | Second Bit (B) |  ```A ^ B```  |
+|      :---:    |      :---:     |     :---:   |
+|        1      |        1       |       0     |
+|        1      |        0       |       1     |
+|        0      |        1       |       1     |
+|        0      |        0       |       0     |
+
+For example, 
+
+```A = 5``` (0101 in binary) 
+
+```B = 6``` (0110 in binary)
+
+then ```A & B = 0011``` which is equivalent to ```A & B = 3```
