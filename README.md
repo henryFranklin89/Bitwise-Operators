@@ -18,9 +18,9 @@ There are six btiwise operators in python:
 #### Bitwise AND (```&```)
 Bitwise AND returns 1 if both bits are 1 ```else``` 0.
 
-| First Bit  | Second Bit |  &-Return  |
-|    :---:   |    :---:   |    :---:   |
-|      1     |      1     |      1     |
-|      1     |      0     |      0     |
-|      0     |      1     |      0     |
-|      0     |      0     |      0     |
+| First Bit (A) | Second Bit (B) |  ```A&B```  |
+|      :---:    |      :---:     |     :---:   |
+|        1      |        1       |       1     |
+|        1      |        0       |       0     |
+|        0      |        1       |       0     |
+|        0      |        0       |       0     |
