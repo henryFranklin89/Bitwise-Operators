@@ -26,6 +26,9 @@ Bitwise AND returns 1 if both bits are 1 ```else``` 0.
 |        0      |        0       |       0     |
 
 For example, 
+
 ```A = 5``` (0101 in binary) 
+
 ```B = 6``` (0110 in binary)
+
 then ```A & B = 0100``` which is equivalent to ```A & B = 4```
