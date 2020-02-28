@@ -3,5 +3,5 @@ Bitwise operators are extremely useful. Unfortunately, they often go overlooked 
 
 # Types of Bitwise Operators
 There are six btiwise operators in python:
-* Bitwise AND - """&"""
-* Bitwise OR - """|"""
+* Bitwise AND - ```&```
+* Bitwise OR - ```|```
