@@ -15,6 +15,8 @@ There are six btiwise operators in python:
 * Bitwsie right shift - ```>>```
 * Bitwise left shift - ```<<```
 
+
+
 #### Bitwise AND (```&```)
 Bitwise AND returns 1 if both bits are 1 ```else``` 0.
 
@@ -32,6 +34,8 @@ For example,
 ```B = 6``` (0110 in binary)
 
 then ```A & B = 0100``` which is equivalent to ```A & B = 4```
+
+
 
 #### Bitwise OR (```|```)
 Bitwise OR returns 1 if either bit is 1 ```else``` 0.
@@ -51,6 +55,7 @@ For example,
 ```B = 6``` (0110 in binary)
 
 then ```A | B = 0111``` which is equivalent to ```A & B = 7```
+
 
 
 #### Bitwise XOR (```^```)
