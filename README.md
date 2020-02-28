@@ -43,6 +43,13 @@ Bitwise OR returns 1 if either bit is 1 ```else``` 0.
 |        0      |        1       |        1      |
 |        0      |        0       |        0      |
 
+| First Bit (A) | Second Bit (B) |  ```A ^ B```  |
+|      :---:    |      :---:     |      :---:    |
+|        1      |        1       |        0      |
+|        1      |        0       |        1      |
+|        0      |        1       |        1      |
+|        0      |        0       |        0      |
+
 For example, 
 
 ```A = 5``` (0101 in binary) 
