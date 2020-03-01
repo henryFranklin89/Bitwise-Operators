@@ -109,3 +109,5 @@ For example,
 
 * then ```A << 1 = 1010``` which is equivalent to ```A = 10```
 * then ```A << 2 = 10100``` which is equivalent to ```A = 20```
+
+## Check out the page for common uses for bitwise operators!
